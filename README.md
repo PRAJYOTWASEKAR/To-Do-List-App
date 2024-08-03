@@ -12,7 +12,7 @@ A simple To-Do List App built with HTML, CSS, and JavaScript.
 ## Getting Started
 1. Clone the repository:
     ```bash
-    git clone https://github.com/prajyot-wasekar/to-do-list-app.git
+    git clone https://github.com/PRAJYOTWASEKAR/to-do-list-app.git
     ```
 2. Open the `index.html` file in a web browser to start using the app.
 
@@ -33,3 +33,6 @@ If you encounter any issues or have suggestions for improvement, please open an 
 
 ## Author
 [Prajyot Wasekar](https://github.com/prajyot-wasekar)
+
+## Demo
+You can view a live demo of the app [here](https://prajyotwasekar.github.io/To-Do-List-App/).
