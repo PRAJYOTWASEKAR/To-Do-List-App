@@ -1,0 +1,58 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>To-Do List App</h1>
+      <button class="add-btn" id="add-btn">
+        <i class="fas fa-plus"></i> Add Todo
+      </button>
+    </header>
+    <main>
+      <section class="todo-list" id="todo-list">
+        <!-- Todo items will be rendered here -->
+      </section>
+      <section class="add-todo" id="add-todo">
+        <input type="text" id="todo-input" placeholder="Add new todo">
+        <input type="date" id="due-date-input" placeholder="Due Date">
+        <select id="priority-input">
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select>
+        <input type="text" id="tags-input" placeholder="Tags (comma separated)">
+        <button class="add-todo-btn" id="add-todo-btn">
+          <i class="fas fa-paper-plane"></i> Add
+        </button>
+      </section>
+      <section class="filter-sort" id="filter-sort">
+        <select id="filter-by">
+          <option value="due-date">Due Date</option>
+          <option value="priority">Priority</option>
+          <option value="tags">Tags</option>
+        </select>
+        <select id="sort-by">
+          <option value="due-date">Due Date</option>
+          <option value="priority">Priority</option>
+          <option value="alphabetical">Alphabetical</option>
+        </select>
+        <button class="filter-sort-btn" id="filter-sort-btn">
+          <i class="fas fa-filter"></i> Filter & Sort
+        </button>
+      </section>
+    </main>
+    <footer>
+      <p>Drag and drop to reorder</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
